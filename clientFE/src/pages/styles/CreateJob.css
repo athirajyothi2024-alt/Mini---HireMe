@@ -1,0 +1,76 @@
+.create-job-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.create-job-container h1 {
+  text-align: center;
+  color: #1677ff;
+  margin-bottom: 30px;
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.job-form input,
+.job-form select,
+.job-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.job-form input:focus,
+.job-form select:focus,
+.job-form textarea:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 5px rgba(22, 119, 255, 0.3);
+}
+
+.job-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.job-form button {
+  background: #1677ff;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.job-form button:hover {
+  background: #0958d9;
+}
+
+.job-form button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .create-job-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .create-job-container h1 {
+    font-size: 26px;
+  }
+}

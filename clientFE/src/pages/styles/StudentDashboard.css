@@ -1,0 +1,100 @@
+.student-dashboard {
+  padding: 30px;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.welcome-section h1 {
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  color: gray;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search-section button {
+  padding: 12px 20px;
+  border: none;
+  background: #1677ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background: #0958d9;
+}
+
+.jobs-container {
+  display: grid;
+  gap: 20px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.search-container input {
+  width: 400px;
+  max-width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-container input:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 5px rgba(22, 119, 255, 0.3);
+}
+
+.no-jobs {
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.filter-container input {
+  width: 350px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.filter-container select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  min-width: 180px;
+}
+
+.filter-container input:focus,
+.filter-container select:focus {
+  outline: none;
+  border-color: #1677ff;
+}

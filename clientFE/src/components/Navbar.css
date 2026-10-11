@@ -1,0 +1,52 @@
+.navbar-header {
+  display: flex !important;
+  align-items: center;
+  background: #1677ff;
+  height: 64px;
+  padding: 0 24px;
+}
+
+.navbar-menu {
+  flex: 1;
+  margin-left: 30px;
+}
+.navbar-logo {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-menu {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-user span {
+  color: white;
+  font-size: 16px;
+}
+
+.logout-btn {
+  border-radius: 6px;
+  font-weight: 500;
+  background-color: #1677ff;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+  background: transparent;
+}
+
+.ant-menu-dark .ant-menu-item {
+  font-size: 15px;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  color: #1677ff !important;
+}
